@@ -1,0 +1,219 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body{
+  background-image: url(../img/_DSC0014.JPG);
+}
+p {
+    text-indent: 20px;
+    color: #ffc90d;
+
+}
+.container{
+  height: 650px;
+  background: rgba(11, 10, 10, 0.85);
+  margin-top: 30px;
+}
+.main_foto{
+
+}
+.main_foto img {
+    border-radius: 15%;
+    margin-bottom: 80px;
+    margin-left: 5px;
+    margin-top: 70px;
+    width: 350px;
+}
+.content{
+  margin-left: -15px;
+}
+.wrapper .active { 
+  color: turquoise;
+ }
+ .tabs span{
+  width: 100%;
+  padding: 10px;
+  background-color: #242121;
+  display: inline-block;
+  text-align: right;
+  border-bottom: 1px solid;
+  color:#ccc;
+  font-size: 15px;
+ }
+ .tabs span:hover{
+  background-color: #5A5A5A;
+  cursor: pointer;
+ }
+ .main_info {
+    color: #ffc90d;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.main_info b{
+    margin-top: 5%;
+    font-size: 25px;
+	text-align: center;
+    color: chocolate;
+}
+
+#line {
+    background-color: #e84f0a;
+    height: 2px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+.main_info2{
+
+ }
+
+/* Второй блок   */
+.nain_uslugi p{
+    font-size: 12px;
+    padding-left: 100px;
+}
+.nain_uslugi h1{
+    font-size: 150%;
+    color:chocolate
+}
+
+.nain_uslugi img{
+    width: 10%;
+}
+#kolya{
+	width: 10%;
+}
+#sasha{
+	width: 17%;
+    margin-top: 5%;
+	margin-left: -5%;
+}
+#murat{
+	width: 13%;
+	margin-top: 9%;
+	margin-left: -3%;
+}
+#dima{
+	width: 23%;
+	margin-top: 5%;
+	margin-left: -7%;
+}
+#zheka{
+	width: 12%;
+	margin-top: 9%;
+	margin-left: 0;
+}
+#TwoBH1{
+	text-align: center;
+	margin-top: -13%;
+}
+/* Третий блок   */
+#ThreeH1{
+	text-align: center;
+	font-size: 22px;
+    color: #ffc90d;
+	height: 100px;
+	margin-left: 5%;
+}
+#ThreeH2{
+	margin-top: 5%;
+	text-align: center;
+    color: chocolate;
+}
+#smok{
+	margin-top: 10%;
+	margin-left: 40%;
+	width: 20%;
+}
+/* Четвертый блок   */
+#FourH1{
+	margin-top: 5%;
+    font-size: 30px;
+	text-align: center;
+    color: chocolate;
+	
+}
+#FourBlock ul{
+    text-align: left;
+	font-size: 20px;
+    color: #ffc90d;
+	margin-left: 10%;
+}
+
+#pFourBlock{
+	margin-left: 10%;
+}
+#polza{
+	width: 40%;
+	margin-left: 30%;
+    font-size: 22px;
+    color: #ffc90d;
+}
+    
+/* Пятый блок*/
+#FiveH1{
+    text-align: center;
+	font-size: 25px;
+    color: chocolate;
+}
+#homer2{
+	width: 40%;
+    margin-top: 10%;
+	margin-left: 30%;
+}  
+/*Контакты*/
+.tab_item h2{
+    font-size: 25px;
+    color: chocolate;
+}
+.col-md-6 h2{
+    font-size: 20px;
+    color: chocolate;
+}
+.contact {
+    font-size: 18px;
+    padding-top: 25px;
+}
+.contact b{
+    color: chocolate;
+}
+
+.contact p{
+    font-size: 15px;
+    color: #ffc90d;
+    margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.soc_button {
+    font-size: 33px;
+    padding: 10px;
+    text-decoration: none;
+}
+iframe{
+  width: 740px;
+  height: 250px;
+  border: 0 ;
+}
