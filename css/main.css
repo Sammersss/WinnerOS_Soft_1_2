@@ -34,8 +34,8 @@ p {
 }
 .container{
   height: 650px;
-  background: rgba(11, 10, 10, 0.85);
-  margin-top: 30px;
+  background: rgba(11, 10, 10, 0.45);
+  margin-top: 10%;
 }
 .main_foto{
 
